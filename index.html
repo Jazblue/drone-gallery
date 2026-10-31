@@ -20,13 +20,14 @@ h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.08;margin:12px 0 16px;max-widt
 .gallery-item{background:#ffffff10;border:1px solid #ffffff18;border-radius:14px;overflow:hidden;transition:transform .2s,box-shadow .2s}
 .gallery-item:hover{transform:translateY(-4px);box-shadow:0 12px 32px #00000050}
 .gallery-item img{width:100%;height:260px;object-fit:cover;display:block}
+.gallery-item video{width:100%;height:260px;object-fit:cover;display:block;background:#000}
 .gallery-caption{padding:14px 16px;font-size:.9rem;color:var(--muted)}
 .panel{margin:20px 0 40px;background:#ffffff0d;border:1px solid #ffffff25;border-radius:18px;padding:24px}
 .btn{display:inline-block;margin:8px 10px 0 0;padding:12px 18px;border-radius:9px;background:var(--gold);color:#102b3f;text-decoration:none;font-weight:800}
 .btn.alt{background:transparent;color:#fff;border:1px solid #ffffff60}
 footer{padding:24px 0;border-top:1px solid #ffffff25;color:var(--muted)}
 a{color:inherit}
-@media(max-width:640px){.gallery{grid-template-columns:1fr}.gallery-item img{height:220px}}
+@media(max-width:640px){.gallery{grid-template-columns:1fr}.gallery-item video{height:220px}.gallery-item img{height:220px}}
 </style>
 </head>
 <body>
@@ -37,13 +38,21 @@ a{color:inherit}
 <h1>Drone photo gallery</h1>
 <p class="lead">Approved aerial photographs from Jays Kent Drones. Only photographs reviewed for privacy, permissions and suitability are published here.</p>
 <div class="panel">
-<p style="color:var(--muted);font-size:.9rem;margin-bottom:12px">Latest additions &mdash; 28 October 2026 &middot; 40 photographs</p>
+<p style="color:var(--muted);font-size:.9rem;margin-bottom:12px">Latest additions &mdash; 31 October 2026 &middot; 2 flight videos &middot; 40 photographs</p>
 <a class="btn" href="https://jayskentdrones.pro/">Visit Jays Kent Drones</a>
 <a class="btn alt" href="https://jazblue.github.io/my-drone-journey/">Read my drone journey</a>
 <a class="btn alt" href="https://jayskentdrones.pro/#contact">Make an enquiry</a>
 </div>
 </section>
 <section class="gallery">
+<div class="gallery-item">
+<video controls preload="metadata" poster="images/thumbnail_2026-10-31_16-44-52.jpg"><source src="images/WhatsApp Video 2026-10-31 at 16.44.52.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+<div class="gallery-caption">Drone flight footage &mdash; 31 October 2026 &middot; 14 min 48 s</div>
+</div>
+<div class="gallery-item">
+<video controls preload="metadata" poster="images/thumbnail_2026-10-31_16-50-49.jpg"><source src="images/WhatsApp Video 2026-10-31 at 16.50.49.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+<div class="gallery-caption">Drone flight footage &mdash; 31 October 2026 &middot; 16 min 50 s</div>
+</div>
 <div class="gallery-item">
 <img src="images/WhatsApp Image 2026-10-28 at 16.13.28.jpeg" alt="Drone aerial photograph — 16.13.28">
 <div class="gallery-caption">Mature trees with gold and orange autumn leaves border a vibrant green field in warm afternoon light.</div>
